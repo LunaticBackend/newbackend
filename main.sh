@@ -837,7 +837,7 @@ print_install "Memasang Menu Packet"
 wget ${REPO}Cdy/menu.zip
 unzip menu.zip
 chmod +x menu/*
-mv menu/* /etc/Cdy/LT
+mv menu/* /usr/local/sbin
 rm -rf menu
 rm -rf menu.zip
 }
