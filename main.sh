@@ -309,7 +309,7 @@ echo $host1 > /etc/xray/domain
 echo $host1 > /root/domain
 echo ""
 elif [[ $host == "2" ]]; then
-wget https://raw.githubusercontent.com/LunaticBackend/main/Fls/cf.sh && chmod +x cf.sh && ./cf.sh
+wget https://raw.githubusercontent.com/LunaticBackend/newbackend/main/Fls/cf.sh && chmod +x cf.sh && ./cf.sh
 rm -f /root/cf.sh
 clear
 else
