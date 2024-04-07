@@ -24,7 +24,7 @@ DOMAIN=inject.cloud
 sub=${domen}
 dns=${sub}.inject.cloud
 #(</dev/urandom tr -dc a-z0-9 | head -c5)
-dns=${sub}inject.cloud
+#dns=${sub}.inject.cloud
 CF_KEY=e03f30d53ad7ec2ab54327baa5e2da5ab44f0
 CF_ID=mezzqueen293@gmail.com
 set -euo pipefail
